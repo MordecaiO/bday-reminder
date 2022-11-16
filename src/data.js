@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     id: 1,
     name: "Larry",
@@ -21,3 +21,5 @@ export const data = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/1200px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg",
   },
 ];
+
+export default data;
