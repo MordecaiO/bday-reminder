@@ -11,7 +11,7 @@ const data = [
     name: "Stephen",
     age: 31,
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/a/aa/TechCrunch_Disrupt_2019_%2848834853256%29_%281%29.jpg,",
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/TechCrunch_Disrupt_2019_%2848834853256%29_%281%29.jpg",
   },
   {
     id: 3,

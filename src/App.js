@@ -10,7 +10,9 @@ function App() {
       <section className="list-container">
         <h1> {people.length} birthdays today</h1>
         <List people={people}></List>
-        <button>Clear All</button>
+        <button>
+          <h3>Clear All</h3>
+        </button>
       </section>
     </main>
   );

@@ -1,10 +1,49 @@
 
-
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#00AFB5 ;
+}
 
 .list-container {
-  position: fixed;
-  top: 25%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+  background-color:whitesmoke ;
+  box-shadow: 10px;
+  width: 30%;
+  height: 40%;
+  margin: 5rem 0 ;
+  padding: 1.5rem 2rem;
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.list-container h1 {
+  margin: 5rem;
+ 
+}
+.person {
+  border: solid;
+  border-color: red;
+display: grid;
+align-items: center;
+margin-left: 4rem;
+margin-bottom: 2rem;
+}
+.person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+button {
+ 
+  
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+  padding: 2rem auto 0 auto; 
 }
